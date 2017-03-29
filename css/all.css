@@ -1,0 +1,130 @@
+html,
+body { 
+	margin:0;
+	height:100%;
+}
+body{
+	font:12px arial, helvetica, sans-serif;
+	background:#000;
+	color:#fff;
+	min-width:320px;
+}
+img{border-style:none;}
+a{
+	text-decoration:none; 
+	color:#f00;
+}
+a:hover{text-decoration:underline;} 
+#wrapper {
+	display:table;
+	border-collapse:collapse;
+	width:100%;
+	height:100%;
+}
+.holder {
+	display:table-cell;
+	vertical-align:middle;
+}
+#main {
+	background:#fff;
+	color:#000;
+	max-width:560px;
+	margin:0 auto;
+	box-shadow:2px 2px 4px 0 #777;
+	border-radius:5px;
+	padding:20px;
+	box-sizing:border-box;
+}
+#main h1 {
+	margin:0 0 20px;
+	font:28px/32px arial, helvetica, sans-serif;
+}
+.frame .sidebar {
+	float:right;
+	width:125px;
+	box-sizing:border-box;
+	margin:0 0 0 25px;
+}
+.row,
+.frame,
+.frame .content { overflow:hidden; }
+ul.btn {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+ul.btn li { margin:0 0 2px; }
+ul.btn a,
+ul.btn button {
+	display:block;
+	margin:0;
+	padding:5px;
+	width:100%;
+	text-align:center;
+	border:1px solid #000;
+	background:#fff;
+	color:#000;
+	outline:none;
+	border-radius:3px;
+	cursor:pointer;
+	box-shadow:1px 1px 2px 0 #ccc, -1px -1px 1px 0 #ccc inset;
+}
+ul.btn a:hover,
+ul.btn button:hover  { border-color:#f00; }
+ul.btn a:active,
+ul.btn button:active { border-color:#0f0; }
+#main label {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 5px;
+	font:12px arial, helvetica, sans-serif;
+}
+#main input[type="text"],
+#main #list {
+	width:100%;
+	display:block;
+	box-sizing:border-box;
+	border:1px solid #000;
+	margin:0;
+	padding:2px 5px;
+	font:14px/18px arial, helvetica, sans-serif;
+}
+#main #list  {
+	height:200px; 
+	padding:0;
+	margin:0;
+	list-style:none;
+	overflow: auto;
+}
+#main #list a {
+	display:block;
+	padding:2px 5px;
+	color:#000;
+}
+#main #list li {
+	border-width:1px 0;
+	border-style:solid;
+	border-color:#ccc;
+	margin:-1px 0;
+}
+#main #list a:focus,
+#main #list a:hover { text-decoration:none; }
+#main #list .selected a {
+	background:#00f;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
